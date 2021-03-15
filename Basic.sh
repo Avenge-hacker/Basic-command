@@ -18,6 +18,8 @@ echo -e "\e[1;32m basic Commands \e[0m"
 echo "Press Enter To Continue"
 read a1
 
+cd $HOME
+
 termux-setup-storage
 
 apt update && apt upgrade -y
