@@ -35,9 +35,9 @@ echo " "
 echo -e "\e[4;31m It will use 200 to 300 mb internet \e[0m"
 echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
 echo " "
-echo "Press 1 To  Install basic commands "
-echo "Press 2 To  Update "
-echo "Press 3 To  Exit "
+echo "[1]  Install basic commands "
+echo "[2]  Update "
+echo "[3]  Exit "
 read ch
 if [ $ch -eq 1 ];then
 clear
