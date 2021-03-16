@@ -33,14 +33,14 @@ sleep 2.0
 clear
 echo " "
 echo " "
-echo -e "$grn                updating the HackLock please wait$rset"
+echo -e "$grn                updating the Basic-command please wait$rset"
 sleep 2.0
 cd $HOME
 rm -rf Basic-command
 git clone https://github.com/Avenge-hacker/Basic-command
 clear
 echo " "
-echo -e "$grn               HackLock has been updated check it now...$rset"
+echo -e "$grn               Basic-command has been updated check it now...$rset"
 sleep 3.0
 echo " "
 cd $HOME
