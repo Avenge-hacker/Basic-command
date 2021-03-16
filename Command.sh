@@ -48,7 +48,7 @@ rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 2 ];then
 clear
-cd $HOME/Basic-command/core/updates/
+cd $HOME/Basic-command/core/update/
 bash updates.sh
 rm *.xxx >/dev/null 2>&1
 exit 0
