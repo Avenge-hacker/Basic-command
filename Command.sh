@@ -6,7 +6,7 @@ echo -e "\e[1;34m Presents \e[0m"
 echo -e "\e[1;32m basic Commands \e[0m"
 echo "Press Enter To Continue"
 read a1
-if [[ -s update.speedx ]];then
+if [[ -s update.Avenge ]];then
 echo "All Requirements Found...."
 else
 echo 'Installing Requirements....'
@@ -15,7 +15,7 @@ echo .
 apt install figlet toilet python curl -y
 apt install python3-pip
 pip install -r requirements.txt
-echo This Script Was Made By Aveng >update.Avenge
+echo This Script Was Made By Avenge >update.Avenge
 echo Requirements Installed....
 echo Press Enter To Continue...
 read upd
@@ -35,9 +35,9 @@ echo " "
 echo -e "\e[4;31m It will use 200 to 300 mb internet \e[0m"
 echo -e "\e[4;31m Please Read Instruction Carefully !!! \e[0m"
 echo " "
-echo "[1]  Install basic commands "
-echo "[2]  Update "
-echo "[3]  Exit "
+echo "Press 1 To  Install basic commands "
+echo "Press 2 To  Update "
+echo "Press 3 To  Exit "
 read ch
 if [ $ch -eq 1 ];then
 clear
@@ -48,18 +48,10 @@ rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 2 ];then
 clear
-apt install git -y
-echo -e "\e[1;34m Downloading Latest Files..."
-git clone https://github.com/Avenge-hacker/Basic-command
-if [[ -s Basic-command/Command.sh ]];then
-cd Basic-command
-cp -r -f * .. > temp
-cd ..
-rm -rf  Basic-command >> temp
-rm update.Avenge >> temp
-rm temp
-chmod +x Command.sh
-fi
+cd $HOME/Basic-command/core/updates/
+bash updates.sh
+rm *.xxx >/dev/null 2>&1
+exit 0
 echo -e "\e[1;32m TBomb Will Restart Now..."
 echo -e "\e[1;32m All The Required Packages Will Be Installed..."
 echo -e "\e[1;34m Press Enter To Proceed To Restart..."
