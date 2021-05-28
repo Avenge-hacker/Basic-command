@@ -15,6 +15,8 @@ echo .
 apt install figlet toilet python curl -y
 apt install python3-pip
 pip install -r requirements.txt
+pkg install figlet -y
+pkg install toylet - y
 echo This Script Was Made By Avenge >update.Avenge
 echo Requirements Installed....
 echo Press Enter To Continue...
