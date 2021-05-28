@@ -15,4 +15,4 @@
 <p>$ git clone https://github.com/Avenge-hacker/Basic-command.git</p>
 <p>$ cd Basic-command</p>
 <p>$ chmod +x command.sh</p>
-<p>$ bash command.sh</p>
+<p>$ ./command.sh</p>
